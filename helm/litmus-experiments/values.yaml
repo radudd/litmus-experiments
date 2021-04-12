@@ -1,0 +1,7 @@
+serviceAccountPriv: litmus-privileged
+serviceAccountNonpriv: litmus-nonprivileged
+litmusRelease: 1.13.2
+experiments:
+- container-kill
+- pod-memory-hog
+- pod-network-latency
